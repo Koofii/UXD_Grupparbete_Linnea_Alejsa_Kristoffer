@@ -1,6 +1,7 @@
 /* Breakpoint-schema */
 $breakpoints:(
-    "medium": (min-width: 40em)
+    "medium": (min-width: 40em),
+    'large': ( min-width: 840px )
 ) !default;
     
 

@@ -1,32 +1,35 @@
 #green-cup img {
         display: flex;
-        width:40vw;
+        width:35vw;
         margin:0;
         margin-top: 2em;
     }
 
-#number{
-    width: 30px;
-}
-
 button {
-    width: 70px;
+    width: 100px;
     height: 40px;
-    color: map-get($colors, coffee);
+    background-color: map-get($colors, coffee);
+    color:  map-get($colors,bright);
 }
 
+#number{
+    width: 50px;
+    height: 30px;
+}
 
 /*webshop grid delen*/
 #webshop-grid{
        display: grid;
         grid-template-columns:1fr auto;
-        grid-template-rows:auto;   
+        grid-template-rows:auto;  
+        max-width: 1000px;
+        margin: auto; 
+        color: map-get($colors, coffee);
 }
 
 #webshop{
-    grid-column: 1/ 3;
+    grid-column: 2/ 3;
     grid-row: 1;
-    text-align: center;
 }
 
 #webshop-title{
@@ -35,10 +38,12 @@ button {
     margin-top:4em;
 }
 
-#webshop-grid p{
+#webshop-grid a{
     grid-column: 2/ 3;
     grid-row: 1;
     margin-top:6em;
+    text-decoration: none;
+    color:black;
 }
 
 #green-cup{
@@ -51,5 +56,37 @@ button {
     grid-column: 1 / 3;
     grid-row: 2;
     margin: auto;
-    color: map-get($colors, bright);
+}
+
+@include respond-to("medium") {
+    #buy-items {
+        grid-column: 2 / 3;
+        grid-row: 1;
+        margin-top: 14em;
+        margin-left: 2em;
+    }
+
+    #webshop-title{
+        margin-top:5em;
+        padding: 2em;
+    }
+
+    #webshop{
+        grid-column: 1/ 3;
+        text-align: center;
+    }
+    #webshop-grid a{
+        margin-top:6em;
+        padding: 2em;
+        text-decoration: none;
+        color:black;
+    }
+}
+
+@include respond-to("large") {
+
+    #green-cup img {
+        width:25vw;
+        margin-top:4em;
+    }
 }
