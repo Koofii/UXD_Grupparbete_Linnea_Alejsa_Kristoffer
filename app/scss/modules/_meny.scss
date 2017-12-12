@@ -8,9 +8,13 @@
 header{
     background-image: url('../images/hero-image-2.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
 }
-
+.logotype-mobile{
+    color: white;
+    text-align: center;
+}
 
 // Meny för desktop
 @include respond-to('medium'){
@@ -19,5 +23,11 @@ header{
     }
     .toggle-close{
         display: none;
+    }
+    .logotype-mobile{
+        display: none;
+    }
+    .logotype-desktop{
+        display: block;
     }
 }

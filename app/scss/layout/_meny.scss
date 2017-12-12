@@ -1,8 +1,8 @@
 nav{
     transition: transform .3s ease-in-out;
     background-color: map-get($colors, coffee );
-    width: 250px;
-    left: -310px;
+    width: 80vw;
+    left: -80vw;
     position: fixed;
     top: 0;
     min-height: 100vh;
@@ -22,7 +22,7 @@ nav{
     }
 }
 #nav:target {     
-    transform: translateX(310px); //Här för vi in menyn
+    transform: translateX(80vw); //Här för vi in menyn
   }
   //simple styling
   .close {
@@ -45,21 +45,22 @@ nav{
         min-height: 0;
         left: 0;
         width: 100%;
-        display: flex;
-        justify-content: right;
+        
         background-image: url('../images/hero-image-2.jpg');
         background-size: 100%;
         background-repeat: no-repeat;
         height: 700px;
         border-bottom: 1px solid map-get($colors , bright);
+        background-color: inherit;
 
         .logotype-desktop{
+            display: block;
             justify-content: left;
-            margin-left: 100px;
-            margin-top: 80px;
+            margin-left: 15%;
             width: 100%;
+            
             & a{
-                font-family: 'Barlow Semi Condensed', sans-serif;
+                
                 color: map-get($colors, bright );
                 font-size: 70px;
             }
@@ -69,11 +70,14 @@ nav{
         }
         & ul{
             display: flex;
+            justify-content: right;
+            width: 100%;
+            
         }
             & li{
                 margin: 50px;
-                width: 20%;
-                // margin-top: 100px;
+                
+
                 &:nth-child(1){
                     display: none;
                 }
