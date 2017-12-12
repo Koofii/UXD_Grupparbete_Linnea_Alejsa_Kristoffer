@@ -10,6 +10,7 @@ var cache = require('gulp-cache');
 var del = require('del');
 var runSequence = require('run-sequence');
 var louis = require('gulp-louis');
+var sassdoc = require('sassdoc');
 
 // Basic Gulp task syntax
 gulp.task('hello', function() {
@@ -75,6 +76,14 @@ gulp.task('fonts', function() {
     .pipe(gulp.dest('dist/fonts'))
 })
 
+//Sass documentation
+gulp.task('sassdoc', function () {
+  return gulp
+    .src('app/scss/**/*.scss')
+    .pipe(sassdoc())
+    .resume();
+});
+
 // Cleaning 
 gulp.task('clean', function() {
   return del.sync('dist').then(function(cb) {
@@ -122,7 +131,7 @@ gulp.task('build', function(callback) {
   runSequence(
     'clean:dist',
     'sass',
-    ['useref', 'images', 'fonts'],
+    ['useref', 'images', 'fonts', 'sassdoc'],
     callback
   )
 })
