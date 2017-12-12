@@ -1,0 +1,14 @@
+/* Breakpoint-schema */
+$breakpoints:(
+    "medium": (min-width: 40em)
+) !default;
+    
+
+/* Färgschema */
+$colors: (
+    bright: rgb(255, 255, 255),
+    medium-grey: rgb(149, 152, 154),
+    coffee: rgb(85, 51, 38)
+
+) !default;
+
