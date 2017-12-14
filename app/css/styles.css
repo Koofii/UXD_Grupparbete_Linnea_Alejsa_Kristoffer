@@ -113,10 +113,15 @@ header {
   display: grid;
   grid-template-columns: 45% 45%;
   grid-gap: 2em;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 2em; }
   @media (min-width: 45em) {
     #menu-wrapper {
       grid-template-columns: 30% 30% 30%; } }
+  @media (min-width: 94em) {
+    #menu-wrapper {
+      margin-right: 5em;
+      margin-left: 5em; } }
 
 .box {
   box-shadow: 2px 3px #c0bfbf;
