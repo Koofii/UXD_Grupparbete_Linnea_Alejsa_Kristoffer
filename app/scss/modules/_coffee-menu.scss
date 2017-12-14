@@ -11,6 +11,10 @@
     @include respond-to(medium){
         grid-template-columns: 30% 30% 30%;
     }
+    @include respond-to(large){
+        margin-right: 3em;
+        margin-left: 3em;
+    }
     margin-bottom: 2em;
 }
 
