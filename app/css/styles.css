@@ -2,6 +2,13 @@
 /* Breakpoint-schema */
 /* Färgschema */
 /* sass breakpoint mixin */
+@media (min-width: 40em) {
+  .main #S1, .main #S2 {
+    grid-column: span 1; }
+    .main #S1 img, .main #S2 img {
+      width: 100%;
+      height: auto; } }
+
 body {
   margin: 0 auto;
   padding: 0; }
@@ -212,10 +219,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr; }
   .main #S1 {
-    grid-column: span 1;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    grid-column: span 1; }
     .main #S1 img {
       width: 100%;
       height: auto; }
@@ -230,20 +234,8 @@ nav {
   .main {
     display: grid;
     grid-template-columns: 50% 50%; }
-    .main #S1 {
-      grid-column: span 1;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .main #S1 img {
-        width: 100%;
-        height: auto; }
     .main #S2 {
-      grid-column: span 1;
-      margin-top: 0; }
-      .main #S2 img {
-        width: 100%;
-        height: auto; } }
+      margin-top: 0; } }
 
 footer {
   background-color: #553326;

@@ -4,9 +4,7 @@
     grid-template-columns: 1fr;
     & #S1{
         grid-column: span 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
         & img{
             width: 100%;
             height: auto;
@@ -30,23 +28,15 @@
 
 
         & #S1{
-            grid-column: span 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %imagesection;
             
-            & img{
-                width: 100%;
-                height: auto;
-            }
         }
         & #S2{
-            grid-column: span 1;
-            margin-top: 0;
-            & img{
-                width: 100%;
-                height: auto;
+            @extend %imagesection;
+            &{
+                margin-top: 0;
             }
+            
 
         }
     }
