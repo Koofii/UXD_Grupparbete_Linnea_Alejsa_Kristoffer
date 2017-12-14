@@ -1,5 +1,5 @@
 /* sass breakpoint mixin */
-@media (min-width: 40em) {
+@media (min-width: 45em) {
   .main #S1, .main #S2 {
     grid-column: span 1; }
     .main #S1 img, .main #S2 img {
@@ -44,7 +44,7 @@ header {
   color: white;
   text-align: center; }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
   .toggle {
     display: none; }
   .toggle-close {
@@ -80,7 +80,7 @@ header {
 #second-img {
   display: none; }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
   #our-coffee-text {
     margin: 3em; }
   #second-img {
@@ -93,7 +93,7 @@ header {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
   .social .icons {
     font-size: 50px; }
     .social .icons i {
@@ -114,7 +114,7 @@ header {
   grid-template-columns: 45% 45%;
   grid-gap: 2em;
   justify-content: center; }
-  @media (min-width: 40em) {
+  @media (min-width: 45em) {
     #menu-wrapper {
       grid-template-columns: 30% 30% 30%; } }
 
@@ -138,7 +138,7 @@ header {
   margin: 0.5em auto;
   border-radius: 5px; }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
   #end-icon {
     display: none; } }
 
@@ -173,7 +173,7 @@ nav {
   position: relative;
   margin-right: 30px; }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
   nav {
     transition: transform 0;
     min-height: 0;
@@ -186,11 +186,11 @@ nav {
     height: 500px;
     border-bottom: 1px solid white;
     background-color: inherit; } }
-  @media (min-width: 40em) and (min-width: 94em) {
+  @media (min-width: 45em) and (min-width: 94em) {
     nav {
       height: 700px; } }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
     nav .logotype-desktop {
       display: block;
       justify-content: left;
@@ -232,7 +232,7 @@ nav {
       width: 100%;
       height: auto; }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
   .main {
     display: grid;
     grid-template-columns: 50% 50%; }
@@ -246,7 +246,7 @@ footer {
   padding: 30px;
   font-size: 25px; }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
   footer {
     background-color: #553326;
     margin-top: -10px; }
