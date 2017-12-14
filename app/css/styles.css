@@ -138,59 +138,6 @@ header {
   #end-icon {
     display: none; } }
 
-.social div {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-@media (min-width: 40em) {
-  .social .icons {
-    font-size: 50px; }
-    .social .icons i {
-      margin: 20px; }
-  .mecenat {
-    color: white;
-    font-size: 30px;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 30px; } }
-
-#menu-headline {
-  text-align: center;
-  color: #553326; }
-
-#menu-wrapper {
-  display: grid;
-  grid-template-columns: 45% 45%;
-  grid-gap: 2em;
-  justify-content: center; }
-  @media (min-width: 40em) {
-    #menu-wrapper {
-      grid-template-columns: 30% 30% 30%; } }
-
-.box {
-  box-shadow: 2px 3px #c0bfbf;
-  border: 2px solid #918f8f;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .box p {
-    color: #553326;
-    padding: 0.4em;
-    text-align: center; }
-  .box h4 {
-    margin-bottom: 0; }
-
-#end-icon img {
-  height: auto;
-  width: 90%;
-  margin: 0.5em auto;
-  border-radius: 5px; }
-
-@media (min-width: 40em) {
-  #end-icon {
-    display: none; } }
-
 nav {
   transition: transform .3s ease-in-out;
   background-color: #553326;
