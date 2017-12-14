@@ -79,7 +79,6 @@ header {
     width: 50%;
     height: 300px; } }
 
-<<<<<<< HEAD
 .social div {
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -95,7 +94,7 @@ header {
     align-items: center;
     text-align: center;
     padding-bottom: 30px; } }
-=======
+
 #menu-headline {
   text-align: center;
   color: #553326; }
@@ -132,7 +131,6 @@ header {
 @media (min-width: 40em) {
   #end-icon {
     display: none; } }
->>>>>>> 8792c0b684500e9774a7b8f5e2c59734dece21e5
 
 nav {
   transition: transform .3s ease-in-out;
