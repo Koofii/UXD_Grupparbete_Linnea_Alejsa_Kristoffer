@@ -69,14 +69,16 @@ nav{
         }
         & ul{
             display: flex;
-            justify-content: right;
+            justify-content: flex-end;
             width: 100%;
             
         }
             & li{
                 margin: 50px;
                 
-
+                &:nth-child(5){
+                    padding-right: 50px;
+                }
                 &:nth-child(1){
                     display: none;
                 }
