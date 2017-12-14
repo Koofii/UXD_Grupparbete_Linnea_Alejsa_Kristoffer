@@ -1,7 +1,8 @@
 
 /// breakpoints
 $breakpoints:(
-    "medium": (min-width: 40em)
+    "medium": (min-width: 40em),
+    "large": (min-width: 94em)
 ) !default;
     
 ///colorscheme
