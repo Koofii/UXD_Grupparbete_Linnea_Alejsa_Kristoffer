@@ -1,3 +1,4 @@
+// using canvasmenu for mobiledevices
 nav{
     transition: transform .3s ease-in-out;
     background-color: map-get($colors, coffee );
@@ -46,7 +47,7 @@ nav{
         left: 0;
         width: 100%;
         position: static;
-        background-image: url('../images/hero-image-2.jpg');
+        background-image: url('../images/heroimage2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 700px;
