@@ -193,10 +193,12 @@ nav {
       display: none; }
     nav ul {
       display: flex;
-      justify-content: right;
+      justify-content: flex-end;
       width: 100%; }
     nav li {
       margin: 50px; }
+      nav li:nth-child(5) {
+        padding-right: 50px; }
       nav li:nth-child(1) {
         display: none; }
       nav li a {
