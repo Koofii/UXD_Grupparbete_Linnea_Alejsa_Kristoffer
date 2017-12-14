@@ -1,13 +1,16 @@
-/* Breakpoint-schema */
+
+/// breakpoints
 $breakpoints:(
     "medium": (min-width: 40em)
 ) !default;
     
-
-/* Färgschema */
+///colorscheme
 $colors: (
     bright: rgb(255, 255, 255),
     medium-grey: rgb(149, 152, 154),
     coffee: rgb(85, 51, 38)
 
 ) !default;
+
+///Font
+$font: 'Barlow Semi Condensed', sans-serif;
