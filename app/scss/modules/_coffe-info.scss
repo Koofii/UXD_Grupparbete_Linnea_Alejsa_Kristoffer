@@ -1,3 +1,4 @@
+//style paragraphs and images 
 #coffee-info-headline{
     text-align: center;
     color: map-get($colors, coffee);
@@ -20,6 +21,7 @@
     width: 100vw;
     height: 200px;
 }
+
 //hide second image in mobile viewport
 #second-img{
     display: none;
