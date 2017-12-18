@@ -12,8 +12,8 @@
         grid-template-columns: 30% 30% 30%;
     }
     @include respond-to(large){
-        margin-right: 3em;
-        margin-left: 3em;
+        margin-right: 5em;
+        margin-left: 5em;
     }
     margin-bottom: 2em;
 }
