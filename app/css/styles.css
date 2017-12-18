@@ -89,6 +89,81 @@ header {
     width: 50%;
     height: 300px; } }
 
+webshop
+#green-cup img {
+  display: flex;
+  width: 35vw;
+  margin: 0;
+  margin-top: 2em; }
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #553326;
+  color: white; }
+
+#number {
+  width: 50px;
+  height: 30px; }
+
+/*webshop grid delen*/
+#webshop-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto;
+  max-width: 1000px;
+  margin: auto;
+  color: #553326; }
+
+#webshop {
+  grid-column: 2/ 3;
+  grid-row: 1; }
+
+#webshop-title {
+  grid-column: 2/ 3;
+  grid-row: 1;
+  margin-top: 4em; }
+
+#webshop-grid a {
+  grid-column: 2/ 3;
+  grid-row: 1;
+  margin-top: 6em;
+  text-decoration: none;
+  color: black; }
+
+#green-cup {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  margin: 0; }
+
+#buy-items {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  margin: auto; }
+
+@media (min-width: 40em) {
+  #buy-items {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin-top: 14em;
+    margin-left: 2em; }
+  #webshop-title {
+    margin-top: 5em;
+    padding: 2em; }
+  #webshop {
+    grid-column: 1/ 3;
+    text-align: center; }
+  #webshop-grid a {
+    margin-top: 6em;
+    padding: 2em;
+    text-decoration: none;
+    color: black; } }
+
+@media (min-width: 840px) {
+  #green-cup img {
+    width: 250px;
+    margin-top: 4em; } }
+=======
 .social div {
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -262,3 +337,4 @@ footer {
     align-items: center;
     font-size: 30px;
     padding: 50px; } }
+
