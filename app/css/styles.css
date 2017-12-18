@@ -118,6 +118,10 @@ header {
   @media (min-width: 45em) {
     #menu-wrapper {
       grid-template-columns: 30% 30% 30%; } }
+  @media (min-width: 94em) {
+    #menu-wrapper {
+      margin-right: 3em;
+      margin-left: 3em; } }
 
 .box {
   box-shadow: 2px 3px #c0bfbf;
