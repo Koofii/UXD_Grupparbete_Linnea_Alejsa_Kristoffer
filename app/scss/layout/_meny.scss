@@ -20,6 +20,10 @@ nav{
     }
     & a{
         color: map-get($colors, bright );
+
+        &:hover{
+            text-decoration: none;
+        }
     }
 }
 #nav:target {     
@@ -94,7 +98,8 @@ nav{
                     color: map-get($colors, bright );
 
                     &:hover{
-                        color: map-get($colors, bright );
+                        color: map-get($colors, hover-effect);
+                        text-decoration: none;
                     }
                 }
             }
