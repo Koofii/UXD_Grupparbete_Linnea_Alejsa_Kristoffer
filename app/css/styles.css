@@ -172,7 +172,7 @@ p {
   width: 100px;
   background-color: #553326;
   color: white;
-  margin-left: 8em;
+  margin-left: 7em;
   height: 2em; }
 
 input {
@@ -221,7 +221,7 @@ form {
     margin: 1.5em;
     padding: 1em; }
   #submit {
-    margin-left: 8em; } }
+    margin-left: em; } }
 
 .social div {
   margin-top: 20px;
