@@ -88,6 +88,14 @@ button {
     grid-row: 1;
     margin-top: 14em;
     margin-left: 2em; }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    #buy-items span {
+      font-size: 18px; }
+>>>>>>> e3bd3453d3c961f8da6dee6a70a8a012b0483775
+>>>>>>> 4deb10a65b600d8f21a19603311216bc9d712905
   #webshop-title {
     margin-top: 5em;
     padding: 2em; }
@@ -119,10 +127,13 @@ header {
   color: white;
   text-align: center; }
 
+<<<<<<< HEAD
 .toggle:hover {
   text-decoration: none;
   color: white; }
 
+=======
+>>>>>>> 4deb10a65b600d8f21a19603311216bc9d712905
 @media (min-width: 45em) {
   .toggle {
     display: none; }
@@ -176,7 +187,15 @@ p {
   width: 100px;
   background-color: #553326;
   color: white;
+<<<<<<< HEAD
   margin-left: 8em;
+=======
+<<<<<<< HEAD
+  margin-left: 8em;
+=======
+  margin-left: 7em;
+>>>>>>> e3bd3453d3c961f8da6dee6a70a8a012b0483775
+>>>>>>> 4deb10a65b600d8f21a19603311216bc9d712905
   height: 2em; }
 
 input {
@@ -225,7 +244,15 @@ form {
     margin: 1.5em;
     padding: 1em; }
   #submit {
+<<<<<<< HEAD
     margin-left: 8em; } }
+=======
+<<<<<<< HEAD
+    margin-left: 8em; } }
+=======
+    margin-left: em; } }
+>>>>>>> e3bd3453d3c961f8da6dee6a70a8a012b0483775
+>>>>>>> 4deb10a65b600d8f21a19603311216bc9d712905
 
 .social div {
   margin-top: 20px;
@@ -303,8 +330,11 @@ nav {
       margin-bottom: 30px; }
   nav a {
     color: white; }
+<<<<<<< HEAD
     nav a:hover {
       text-decoration: none; }
+=======
+>>>>>>> 4deb10a65b600d8f21a19603311216bc9d712905
 
 #nav:target {
   transform: translateX(80vw); }
@@ -360,8 +390,12 @@ nav {
         font-size: 25px;
         color: white; }
         nav li a:hover {
+<<<<<<< HEAD
           color: #ccb7b7;
           text-decoration: none; } }
+=======
+          color: white; } }
+>>>>>>> 4deb10a65b600d8f21a19603311216bc9d712905
 
 .main {
   display: grid;
