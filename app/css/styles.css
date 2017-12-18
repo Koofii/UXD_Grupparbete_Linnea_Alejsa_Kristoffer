@@ -88,6 +88,11 @@ button {
     grid-row: 1;
     margin-top: 14em;
     margin-left: 2em; }
+<<<<<<< HEAD
+=======
+    #buy-items span {
+      font-size: 18px; }
+>>>>>>> e3bd3453d3c961f8da6dee6a70a8a012b0483775
   #webshop-title {
     margin-top: 5em;
     padding: 2em; }
@@ -172,7 +177,11 @@ p {
   width: 100px;
   background-color: #553326;
   color: white;
+<<<<<<< HEAD
   margin-left: 8em;
+=======
+  margin-left: 7em;
+>>>>>>> e3bd3453d3c961f8da6dee6a70a8a012b0483775
   height: 2em; }
 
 input {
@@ -221,7 +230,11 @@ form {
     margin: 1.5em;
     padding: 1em; }
   #submit {
+<<<<<<< HEAD
     margin-left: 8em; } }
+=======
+    margin-left: em; } }
+>>>>>>> e3bd3453d3c961f8da6dee6a70a8a012b0483775
 
 .social div {
   margin-top: 20px;

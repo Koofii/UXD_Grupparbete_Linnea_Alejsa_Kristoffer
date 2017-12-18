@@ -7,7 +7,7 @@ p {
 #submit{ width: 100px;
     background-color:map-get($colors, coffee);
     color: map-get($colors, bright);
-    margin-left:8em;
+    margin-left:7em;
     height: 2em;
 }
 
@@ -18,7 +18,7 @@ margin-top:1em;
 #firstname{
     margin-left:1em;
     }
-    
+
 a {
     text-decoration: none;
     color: map-get($colors, coffee);
@@ -70,6 +70,6 @@ form {
         margin:1.5em;
         padding: 1em;
     }
-    #submit{ margin-left:8em;
+    #submit{ margin-left:em;
     }
 }
