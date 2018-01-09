@@ -225,7 +225,13 @@ form {
   .register {
     height: 50px;
     margin: 1.5em;
+<<<<<<< HEAD
     padding: 1em; } }
+=======
+    padding: 1em; }
+  #submit {
+    margin-left: em; } }
+>>>>>>> 462e53f941216fbca54236ba40d9aa8d3a474c5c
 
 .social div {
   margin-top: 20px;
