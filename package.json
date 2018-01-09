@@ -1,5 +1,5 @@
 {
-  "name": "koofsass",
+  "name": "alesjasass",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Koofii/EVXFEH17_Kristoffer_Frejd.git"
+    "url": ""
   },
-  "author": "kristoffer frejd",
+  "author": "alesja rudaja",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Koofii/EVXFEH17_Kristoffer_Frejd/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Koofii/EVXFEH17_Kristoffer_Frejd#readme",
+  "homepage": "",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "del": "^3.0.0",
